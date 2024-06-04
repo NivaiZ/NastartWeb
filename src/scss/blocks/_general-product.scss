@@ -105,3 +105,10 @@
 .general-product__wrapper {
 	padding: 30px 10px 30px 10px;
 }
+
+.general-product__cart {
+	display: flex;
+	justify-content: flex-end;
+	position: sticky;
+	bottom: 0;
+}
