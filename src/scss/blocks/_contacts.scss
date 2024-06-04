@@ -1,0 +1,20 @@
+.contacts__flex {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.contacts__link-phone {
+	background: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25.64px;
+}
+
+.contacts__link--email {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 23.08px;
+	color: var(--extra-white);
+}
