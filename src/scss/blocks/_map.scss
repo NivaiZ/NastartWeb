@@ -1,0 +1,119 @@
+.map__background {
+	border: 2px solid rgba(164, 167, 226, 0.4);
+	background-image: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%);
+}
+
+.map__wrapper {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.map__icon {
+	width: 32px;
+	height: 32px;
+	fill: rgba(164, 167, 226, 0.4);
+}
+
+.map__item {
+	position: absolute;
+}
+
+.map__figcaption {
+	color: rgba(164, 167, 226, 0.4);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17.95px;
+	max-width: 180px;
+	margin-left: 7px;
+}
+
+.map__figure {
+	display: flex;
+	cursor: default;
+	transition: 0.5s ease;
+
+	&:hover {
+		.map__icon {
+			fill: rgba(215, 220, 231, 1);
+			transition: 0.5s ease;
+		}
+
+		.map__figcaption {
+			color: rgba(215, 220, 231, 1);
+			transition: 0.5s ease;
+		}
+	}
+}
+
+.map__item--one {
+	left: 38em;
+	top: 40%;
+}
+
+.map__item--two {
+	left: 37em;
+	top: 47%;
+}
+
+.map__item--three {
+	left: 34em;
+	top: 57%;
+
+	.map__icon {
+		margin-left: 10px;
+	}
+}
+
+.map__item--four {
+	left: 47em;
+	top: 57%;
+}
+
+.map__item--five {
+	left: 52em;
+	top: 49%;
+}
+
+.map__item--six {
+	left: 56em;
+	top: 66%;
+}
+
+.map__item--seven {
+	left: 67em;
+	top: 42%;
+}
+
+.map__column {
+	flex-direction: column-reverse;
+	max-width: 136px;
+}
+
+.map__text {
+	color: var(--map-text-color);
+	position: absolute;
+	max-width: 420px;
+	right: 10em;
+	top: 47%;
+}
+
+.map__strong {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 35.9px;
+}
+
+.map__description {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25.64px;
+}
+
+.map__separator {
+	display: block;
+	width: 40px;
+	height: 10px;
+	border-top: 2px solid rgba(164, 167, 226, 0.4);
+	margin: 10px 0 0 0;
+}
