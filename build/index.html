@@ -16,11 +16,9 @@
 	<body>
 		<header class="header">
 			<div class="container">
-				<div class="header__background">
-					<svg class="contacts__icon">
-						<use href="./img/svgsprite/sprite.symbol.svg#icon__line"></use>
-					</svg>
-				</div>
+				<figure class="header__background">
+					<img class="header__img" src="./img/icon__line.svg" alt="красивая фигура заднего фона" />
+				</figure>
 
 				<div class="header__nav">
 					<div class="header__logo logo">
@@ -60,7 +58,7 @@
 					<div class="header__contacts">
 						<ul class="contacts__list">
 							<li class="contacts__item">
-								<a class="contacts__link contacts__link-phone" href="tel:+70000000000" aria-label="+7 (000) 000-00-00">+7&#160;(000-00)&#160;0-00-00</a>
+								<a class="contacts__link contacts__link-phone" href="tel:+70000000000" aria-label="+7 (000) 000-00-00">+7 (000) 000-00-00</a>
 							</li>
 
 							<li class="contacts__item contacts__flex">
@@ -68,6 +66,30 @@
 							</li>
 						</ul>
 					</div>
+				</div>
+
+				<div class="header__search search">
+					<div class="header__text banner">
+						<h1 class="banner__heading title__h1">производитель электронных компонентов</h1>
+						<span class="banner__description">25 заводов поставщиков</span>
+					</div>
+
+					<form class="search__form" action="/" method="post" name="searchForm" id="search-form">
+						<div class="search__wrapper">
+							<label class="search__placeholder" for="search-text" data-action="label">Поиск по&#160;каталогу</label>
+							<input class="search__input" type="text" name="q" id="search-text" data-action="input" />
+
+							<button class="search__send" type="button" aria-label="Поиск">
+								<span class="search__span">поиск</span>
+							</button>
+
+							<button class="search__clear" type="button" aria-label="Очистка поля" data-action="cleaning">
+								<svg class="search__icon">
+									<use href="./img/svgsprite/sprite.symbol.svg#icon__clear"></use>
+								</svg>
+							</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</header>
