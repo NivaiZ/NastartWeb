@@ -1,6 +1,12 @@
 .contacts__flex {
 	display: flex;
 	justify-content: flex-end;
+	flex-direction: column;
+	margin: 0 0 50px 0;
+
+	&:last-child {
+		margin: 0 0 0 0;
+	}
 }
 
 .contacts__link-phone {
@@ -13,9 +19,29 @@
 	line-height: 25.64px;
 }
 
-.contacts__link--email {
+.contacts__link-email {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 23.08px;
 	color: var(--extra-white);
+}
+
+.contacts__address {
+	color: var(--footer-link);
+}
+
+.contacts__item--margin {
+	margin: 14px 0 5px 0;
+}
+
+.contacts__svg-footer {
+	width: 24px;
+	height: 24px;
+	fill: rgba(215, 220, 231, 0.4);
+	margin: 0 8px 0 0;
+}
+
+.contacts__item-flex {
+	display: flex;
+	align-items: center;
 }
