@@ -1,8 +1,17 @@
 .header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: linear-gradient(217.93deg, #000C52 11.31%, #000051 60%);
-	clip-path: ellipse(167% 100% at 50% 0);
+	clip-path: ellipse(167% 100% at 50% 10%);
+	background-image: url(./../img/banner__bg.png);
 	min-height: 625px;
 	position: relative;
+	background-size: cover;
+	overflow: hidden;
+	mask-image: url(./../img/banner__bg.png);
+	mask-size: cover;
+	mask-position: bottom center;
 
 	&::before {
 		content: url('./../img/icon__line-right.svg');
@@ -17,20 +26,20 @@
 .header__nav {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	// justify-content: space-between;
 	padding: 20px 0 20px 0;
 }
 
+.header__menu {
+	margin: 0 72px 0 115px;
+}
 
 .header__background {
 	position: absolute;
-	height: 100%;
+	max-width: 1200px;
+	height: 1000px;
 	z-index: -1;
-	// animation: 120s linear 0s normal none infinite running rotate;
-}
-
-.header__img {
-	height: inherit;
+	animation: 120s linear 0s normal none infinite running rotate;
 }
 
 .header__text {
@@ -41,7 +50,6 @@
 }
 
 .header__search {
-	max-width: 850px;
-	margin: 0 auto;
-	margin: 100px auto 100px auto;
+	max-width: 860px;
+	margin: 75px auto 0 auto;
 }

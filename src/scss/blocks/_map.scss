@@ -1,11 +1,16 @@
 .map__background {
 	border: 2px solid rgba(164, 167, 226, 0.4);
 	background-image: linear-gradient(224.82deg, #030B41 0.85%, #000B52 57.3%, #1900AE 102.14%);
+	margin: 48px 0 0 0;
 }
 
 .map__wrapper {
 	display: flex;
 	justify-content: center;
+	position: relative;
+}
+
+.map__box {
 	position: relative;
 }
 
@@ -42,23 +47,26 @@
 		.map__figcaption {
 			color: rgba(215, 220, 231, 1);
 			transition: 0.5s ease;
+			font-size: 16px;
+			margin: 7px 0 0 0;
+			line-height: 20.51px;
 		}
 	}
 }
 
 .map__item--one {
-	left: 38em;
-	top: 40%;
+	left: 29em;
+	top: 34%;
 }
 
 .map__item--two {
-	left: 37em;
-	top: 47%;
+	left: 26.5em;
+	top: 45%;
 }
 
 .map__item--three {
-	left: 34em;
-	top: 57%;
+	left: 23.7em;
+	top: 56%;
 
 	.map__icon {
 		margin-left: 10px;
@@ -66,23 +74,23 @@
 }
 
 .map__item--four {
-	left: 47em;
+	left: 36.4em;
 	top: 57%;
 }
 
 .map__item--five {
-	left: 52em;
-	top: 49%;
+	left: 41.6em;
+	top: 47%;
 }
 
 .map__item--six {
-	left: 56em;
-	top: 66%;
+	left: 48em;
+	top: 68%;
 }
 
 .map__item--seven {
-	left: 67em;
-	top: 42%;
+	left: 58.8em;
+	top: 38.5%;
 }
 
 .map__column {
@@ -94,8 +102,8 @@
 	color: var(--map-text-color);
 	position: absolute;
 	max-width: 420px;
-	right: 10em;
-	top: 47%;
+	right: -35px;
+	top: 43%;
 }
 
 .map__strong {
@@ -108,6 +116,7 @@
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 25.64px;
+	margin: 10px 0 0 0;
 }
 
 .map__separator {
@@ -116,4 +125,10 @@
 	height: 10px;
 	border-top: 2px solid rgba(164, 167, 226, 0.4);
 	margin: 10px 0 0 0;
+}
+
+.map__wrapper {
+	picture {
+		margin: -80px 0 0 0;
+	}
 }

@@ -6,12 +6,12 @@ export default function generalProductSlide() {
 
 	if (swiperElement) {
 		const swiper = new Swiper(swiperElement, {
-			slidesPerView: 4,
+			slidesPerView: 4.095,
 			grid: {
 				rows: 2,
 				fill: "row",
 			},
-			spaceBetween: 30,
+			spaceBetween: 24,
 			pagination: {
 				clickable: true,
 			},

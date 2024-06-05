@@ -52,6 +52,7 @@
 	min-height: 350px !important;
 	box-shadow: 3px 3px 16px rgba(45, 65, 114, 0.1);
 	overflow: auto;
+	border-radius: 8px;
 
 	&::before {
 		content: '';
@@ -98,9 +99,9 @@
 	transform: rotate(180deg);
 }
 
-.general-product__picture {
-	padding: 0 10px 0 10px;
-}
+// .general-product__picture {
+// 	padding: 0 10px 0 10px;
+// }
 
 .general-product__wrapper {
 	padding: 30px 10px 30px 10px;
