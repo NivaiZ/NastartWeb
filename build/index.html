@@ -75,9 +75,9 @@
 					</div>
 
 					<form class="search__form" action="/" method="post" name="searchForm" id="search-form">
-						<div class="search__wrapper" data-action="search-field">
+						<div class="search__wrapper">
 							<label class="search__placeholder" for="search-text" data-action="label">Поиск по&#160;каталогу</label>
-							<input class="search__input" type="text" name="q" id="search-text" data-action="input" />
+							<input class="search__input search__input-delete" type="text" name="q" id="search-text" data-action="input" />
 
 							<button class="search__send" type="button" aria-label="Поиск">
 								<span class="search__span">поиск</span>
@@ -407,16 +407,24 @@
 
 								<div class="form__box">
 									<label class="form__label" for="callback__phone" data-action="label">Телефон</label>
-									<input class="form__input form__mask" type="text" name="callback-phone" id="callback__phone" data-action="input" data-action="mask" />
+									<input class="form__input form__mask" type="text" name="callback-phone" id="callback__phone" data-action="input" />
 								</div>
 
 								<div class="form__box search">
-									<button class="search__send" type="button" aria-label="Поиск">
-										<span class="search__span">поиск</span>
+									<button class="search__send" type="button" aria-label="Отправить">
+										<span class="search__span">отправить</span>
 									</button>
 								</div>
 							</fieldset>
 						</form>
+
+						<div class="callback__box">
+							<div class="callback__privacy-policy">
+								Нажимая на&#160;кнопку, вы&#160;даете согласие на&#160;обработку
+								<a class="callback__link" href="/" target="_blank">персональных данных</a> и&#160;соглашаетесь с&#160;условиями
+								<a class="callback__link" href="/" target="_blank">пользовательского соглашения</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
