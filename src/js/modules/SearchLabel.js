@@ -1,8 +1,9 @@
 export default function SearchLabel() {
 	const placeholder = document.querySelectorAll("[data-action='label']")
 	const inputField = document.querySelectorAll('[data-action="input"]')
+	const searchBlock = document.querySelector('[data-action="search-field"]')
 
-	if (placeholder && inputField) {
+	if (placeholder && inputField && searchBlock) {
 		for (let index = 0; index < placeholder.length; index++) {
 			const elementLabel = placeholder[index]
 			const elementInput = inputField[index]

@@ -1,9 +1,10 @@
 // Галерея и лайтбоксы от Fancybox
 import { Fancybox } from '@fancyapps/ui'
 import '@fancyapps/ui/dist/fancybox/fancybox.css'
-import CleaningField from './modules/CleaningField'
-import SearchLabel from './modules/SearchLabel'
+import CleaningField from './modules/cleaningField'
 import generalProductSlide from './modules/generalProductSlide'
+import maskField from './modules/maskField'
+import SearchLabel from './modules/searchLabel'
 
 Fancybox.bind('[data-fancybox]', {
 	// Your custom options
@@ -13,6 +14,7 @@ function handleDOMContentLoaded() {
 	SearchLabel()
 	CleaningField()
 	generalProductSlide()
+	maskField()
 	// useDynamicAdapt("max")
 }
 

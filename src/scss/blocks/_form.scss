@@ -1,0 +1,43 @@
+.form__input {
+	width: 100%;
+	border: 1px solid var(--extra-white);
+	background-color: var(--callback-form);
+	border-radius: 39px;
+	height: 48px;
+	padding: 10px 20px 0 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.64px;
+}
+
+.form__label {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 0.1px;
+	color: var(--color-placeholder);
+	position: absolute;
+	left: 30px;
+	transition: 0.5s ease;
+	pointer-events: none;
+}
+
+.form__box {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-right: 32px;
+
+	&:last-child {
+		width: auto;
+	}
+
+	.search__send {
+		position: relative;
+	}
+}
+
+.form__fieldset {
+	display: flex;
+}
