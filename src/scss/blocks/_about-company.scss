@@ -134,6 +134,15 @@
 }
 
 @media (max-width: 992px) {
+	.about-company {
+		padding: 0 0 0 0;
+		margin: 50px 0 0 0;
+
+		&::before {
+			background-image: url(./../img/icon__wave-mobile.svg);
+		}
+	}
+
 	.about-company__box {
 		margin: 0 0 16px 0;
 
@@ -148,5 +157,24 @@
 
 	.about-company__card {
 		justify-content: center;
+	}
+
+	.about-company__description {
+		font-size: 20px;
+		line-height: 25.64px;
+	}
+
+	.about-company__card {
+		padding: 15px 0 0px 0;
+	}
+
+	.about-company__wrapper {
+		gap: 24px;
+		padding: 114px 0 0px 0;
+	}
+
+	.about-company__separator {
+		top: 83px;
+		right: 44.5%;
 	}
 }

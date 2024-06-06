@@ -11,13 +11,15 @@ export default function generalProductSlide() {
 				rows: 2,
 				fill: "row",
 			},
-			spaceBetween: 24,
-
 			breakpoints: {
 				320: {
 					slidesPerView: 2,
 					spaceBetween: 8,
 				},
+				991: {
+					slidesPerView: 4.095,
+					spaceBetween: 24,
+				}
 			},
 			pagination: {
 				clickable: true,

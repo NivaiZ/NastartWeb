@@ -64,5 +64,40 @@
 	.callback__description {
 		font-size: 20px;
 		line-height: 25.64px;
+		text-align: center;
+	}
+
+	.callback {
+		&::before {
+			background-image: url(./../img/callback__background-mobile.png);
+		}
+	}
+
+	.callback__wrapper {
+		padding: 71px 0 0 0;
+		position: relative;
+	}
+
+	.callback__heading {
+		text-align: center;
+	}
+
+	.callback__separator {
+		left: 44%;
+		position: absolute;
+	}
+
+	.callback__form {
+		margin: 35px 0 0 0;
+	}
+
+	.callback__privacy-policy {
+		text-align: center;
+		font-size: 13px;
+		line-height: 16.67px;
+	}
+
+	.callback__box {
+		padding: 25px 0 58px 0;
 	}
 }
