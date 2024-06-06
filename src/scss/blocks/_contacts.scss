@@ -63,7 +63,7 @@
 	margin: 0 0 0 30px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.contacts__svg-footer {
 		width: 16px;
 		height: 16px;
@@ -75,15 +75,16 @@
 		margin: 0 0 0 20px;
 	}
 
-	.contacts__list-dynamic-adapt {
-		display: flex;
-		justify-content: space-between;
-		padding: 11px 32px 5px 32px;
-	}
-
 	.contacts__address {
 		font-size: 16px;
 		line-height: 20.51px;
 		max-width: 256px;
+	}
+}
+@media (max-width: 1440px) {
+	.contacts__list-dynamic-adapt {
+		display: flex;
+		justify-content: space-between;
+		padding: 11px 32px 5px 32px;
 	}
 }

@@ -116,10 +116,13 @@
 	bottom: 0;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
 	.general-product__slide {
 		min-height: 230px !important;
 	}
+}
+
+@media (max-width: 991px) {
 
 	.general-product__name {
 		font-size: 15px;

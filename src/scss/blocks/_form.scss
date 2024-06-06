@@ -45,10 +45,6 @@
 }
 
 @media (max-width: 992px) {
-	.form__fieldset {
-		display: grid;
-		gap: 16px;
-	}
 
 	.form__box {
 		width: 100%;
@@ -62,5 +58,13 @@
 			width: 100%;
 			margin: 0 0 0 0;
 		}
+	}
+}
+
+@media (max-width: 1440px) {
+	.form__fieldset {
+		display: grid;
+		justify-items: center;
+		gap: 16px;
 	}
 }

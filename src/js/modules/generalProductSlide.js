@@ -13,7 +13,7 @@ export default function generalProductSlide() {
 			},
 			breakpoints: {
 				320: {
-					slidesPerView: 2,
+					slidesPerView: 3,
 					spaceBetween: 8,
 				},
 				991: {

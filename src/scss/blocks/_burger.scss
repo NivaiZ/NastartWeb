@@ -15,7 +15,7 @@
 	border: 0;
 }
 
-.burger-menu__toggle {
+.burger__menu-toggle {
 	position: relative;
 	display: inline-block;
 	width: 32px;
@@ -46,7 +46,7 @@
 	}
 }
 
-.burger__open .burger-menu__toggle {
+.burger__open .burger__menu-toggle {
 	background: 0 0;
 	transition: background 0.1s 0.1s;
 	z-index: 6;

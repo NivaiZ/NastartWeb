@@ -21,6 +21,5 @@ function handleDocumentClick(event) {
     burgerList.classList.remove('burger__wrapper--js');
     burgerButton.classList.remove('burger__open');
 		document.body.classList.remove('background__linear')
-		console.log('click');
   }
 }
