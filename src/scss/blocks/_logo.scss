@@ -3,8 +3,15 @@
 	font-size: 43px;
 	line-height: 58.97px;
 	color: var(--basic-white);
+	transition: color 0.5s ease;
 }
 
 .logo__link {
 	display: block;
+
+	&:hover {
+		.logo__signature {
+			color: #4731FC;
+		}
+	}
 }

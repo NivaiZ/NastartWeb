@@ -8,10 +8,12 @@
 	display: flex;
 	justify-content: center;
 	position: relative;
+	height: 663px;
 }
 
 .map__box {
 	position: relative;
+	margin: -69px 340px 0 0;
 }
 
 .map__icon {
@@ -55,18 +57,18 @@
 }
 
 .map__item--one {
-	left: 29em;
-	top: 34%;
+	left: 18em;
+	top: 42%;
 }
 
 .map__item--two {
-	left: 26.5em;
-	top: 45%;
+	left: 15.5em;
+	top: 51%;
 }
 
 .map__item--three {
-	left: 23.7em;
-	top: 56%;
+	left: 12.7em;
+	top: 60.5%;
 
 	.map__icon {
 		margin-left: 10px;
@@ -74,23 +76,23 @@
 }
 
 .map__item--four {
-	left: 36.4em;
-	top: 57%;
+	left: 25.4em;
+	top: 62%;
 }
 
 .map__item--five {
-	left: 41.6em;
-	top: 47%;
+	left: 30.6em;
+	top: 52.5%;
 }
 
 .map__item--six {
-	left: 48em;
-	top: 68%;
+	left: 37em;
+	top: 72%;
 }
 
 .map__item--seven {
-	left: 58.8em;
-	top: 38.5%;
+	left: 47.8em;
+	top: 44.9%;
 }
 
 .map__column {
@@ -102,8 +104,8 @@
 	color: var(--map-text-color);
 	position: absolute;
 	max-width: 420px;
-	right: -35px;
-	top: 43%;
+	right: -200px;
+	top: 50%;
 }
 
 .map__strong {
@@ -125,10 +127,4 @@
 	height: 10px;
 	border-top: 2px solid rgba(164, 167, 226, 0.4);
 	margin: 10px 0 0 0;
-}
-
-.map__wrapper {
-	picture {
-		margin: -80px 0 0 0;
-	}
 }

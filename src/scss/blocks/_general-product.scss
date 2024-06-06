@@ -80,10 +80,16 @@
 	&:last-child {
 		margin-right: 0;
 	}
+
 }
 
 .general-product__button {
 	position: static;
+	transition: opacity 0.5s ease;
+
+	&:hover {
+		opacity: 0.5;
+	}
 }
 
 .general-product__group {
@@ -98,10 +104,6 @@
 .general-product__button-next {
 	transform: rotate(180deg);
 }
-
-// .general-product__picture {
-// 	padding: 0 10px 0 10px;
-// }
 
 .general-product__wrapper {
 	padding: 30px 10px 30px 10px;

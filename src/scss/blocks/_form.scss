@@ -3,7 +3,7 @@
 	border: 1px solid var(--extra-white);
 	background-color: var(--callback-form);
 	border-radius: 39px;
-	height: 48px;
+	height: 54px;
 	padding: 10px 20px 0 20px;
 	font-weight: 400;
 	font-size: 16px;
@@ -26,15 +26,17 @@
 	position: relative;
 	display: flex;
 	align-items: center;
-	width: 100%;
-	margin-right: 32px;
+	width: 30.5em;
+	margin-right: 34px;
 
 	&:last-child {
 		width: auto;
+		margin-right: 0;
 	}
 
 	.search__send {
 		position: relative;
+		padding: 14.5px 0;
 	}
 }
 
