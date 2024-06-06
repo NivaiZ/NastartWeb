@@ -12,13 +12,20 @@ export default function generalProductSlide() {
 				fill: "row",
 			},
 			spaceBetween: 24,
+
+			breakpoints: {
+				320: {
+					slidesPerView: 2,
+					spaceBetween: 8,
+				},
+			},
 			pagination: {
 				clickable: true,
 			},
 			navigation: {
-        nextEl: ".general-product__button-next",
-        prevEl: ".general-product__button-prev",
-      },
+				nextEl: ".general-product__button-next",
+				prevEl: ".general-product__button-prev",
+			},
 		})
 	}
 }

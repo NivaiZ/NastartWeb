@@ -1,0 +1,118 @@
+.burger__button {
+	display: flex;
+	align-items: center;
+	user-select: none;
+	margin: 0;
+	border-radius: 0;
+	font-size: 0;
+	line-height: 0;
+	outline: 0;
+	cursor: pointer;
+	width: auto;
+	padding: 10px;
+	padding-right: 0;
+	background: 0 0;
+	border: 0;
+}
+
+.burger-menu__toggle {
+	position: relative;
+	display: inline-block;
+	width: 32px;
+	height: 2px;
+	vertical-align: bottom;
+	transition: background 0.7s 0.7s;
+	background-image: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background-image: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+		transition: top 0.5s 0.5s, transform 0.5s;
+		transform-origin: 50% 50%;
+	}
+
+	&::before {
+		top: 8px;
+		width: 18px;
+	}
+
+	&::after {
+		top: -8px;
+	}
+}
+
+.burger__open .burger-menu__toggle {
+	background: 0 0;
+	transition: background 0.1s 0.1s;
+	z-index: 6;
+
+	&::after,
+	&::before {
+		transition: top 0.3s, transform 0.3s 0.5s;
+		width: 28px;
+		top: 0;
+		left: -5px;
+	}
+
+	&::before {
+		transform: rotate3d(0, 0, 1, 45deg);
+		background-image: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+	}
+
+	&::after {
+		transform: rotate3d(0, 0, 1, -45deg);
+		background-image: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+	}
+}
+
+.burger__wrapper {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.burger__button.burger__open {
+		flex-direction: column;
+	}
+
+	.burger__wrapper {
+		display: none;
+	}
+
+	.burger__wrapper.burger__wrapper--js {
+		display: block;
+		position: absolute;
+		left: 0;
+		background-color: var(--basic-white);
+		width: 100%;
+		top: 0;
+		padding: 30px;
+		z-index: 2;
+		overflow: auto;
+
+		.menu__list {
+			display: grid;
+			justify-items: center;
+			gap: 20px;
+		}
+
+		.menu__link {
+			color: var(--text-color);
+		}
+	}
+
+	.burger__description {
+		background: linear-gradient(101.49deg, #A5A8F5 17.34%, #B8BAF5 53.55%, #9296F7 86.43%);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		opacity: 0.77;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 17.95px;
+		margin-left: 7px;
+	}
+}

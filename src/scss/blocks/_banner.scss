@@ -8,3 +8,15 @@
 .banner__heading {
 	text-transform: uppercase;
 }
+
+@media (max-width: 992px) {
+	.banner__heading {
+		text-align: center;
+	}
+
+	.banner__description {
+		font-size: 18px;
+		line-height: 23.08px;
+		font-weight: 400;
+	}
+}

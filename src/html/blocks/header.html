@@ -1,11 +1,11 @@
 <header class="header">
-	
+
+	<div class='header__mobile'></div>
 	<figure class='header__background'>
 		<img class="header__img" src="./../img/icon__line.svg" alt='красивая фигура заднего фона'>
 	</figure>
 
 	<div class='container'>
-
 
 		<div class='header__nav'>
 
@@ -16,7 +16,7 @@
 				</a>
 			</div>
 
-			<nav class='header__menu menu'>
+			<nav class='header__menu menu' data-da=".burger__wrapper, 992, 1">
 				<ul class='menu__list'>
 
 					<li class="menu__item">
@@ -45,8 +45,8 @@
 				</ul>
 			</nav>
 
-			<div class='header__contacts'>
-				<ul class='contacts__list'>
+			<div class='header__contacts' data-da=".header__mobile, 992, 1">
+				<ul class='contacts__list contacts__list-dynamic-adapt'>
 					<li class='contacts__item'>
 						<a class='contacts__link contacts__link-phone' href="tel:+70000000000" aria-label='+7 (000) 000-00-00'>+7
 							(000) 000-00-00</a>
@@ -58,10 +58,21 @@
 					</li>
 				</ul>
 			</div>
+
+			<aside class='header__burger'>
+				<button class="burger__button" type="button" aria-label="Мобильное меню" data-action="click">
+					<span class="burger-menu__toggle"></span>
+					<span class='burger__description'>меню</span>
+					</button>
+
+				<div class='burger__wrapper'>
+
+				</div>
+			</aside>
 		</div>
 
 		<div class='header__search search'>
-			
+
 			<div class='header__text banner'>
 				<h1 class='banner__heading title__h1'>производитель электронных компонентов</h1>
 				<span class='banner__description'>25 заводов поставщиков</span>

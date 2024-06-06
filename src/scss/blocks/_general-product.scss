@@ -115,3 +115,30 @@
 	position: sticky;
 	bottom: 0;
 }
+
+@media (max-width: 991px) {
+	.general-product__slide {
+		min-height: 230px !important;
+	}
+
+	.general-product__name {
+		font-size: 15px;
+		line-height: 19.5px;
+		font-weight: 400;
+	}
+
+	.general-product__slide.swiper-slide {
+		display: flex !important;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.general-product__heading {
+		margin: 0 0 0 0;
+	}
+
+	.general-product__separator {
+		left: 44%;
+		top: -30px;
+	}
+}

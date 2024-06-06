@@ -29,7 +29,7 @@
 		background-image: url('./../img/icon__wave.svg');
 		background-repeat: no-repeat;
 		background-position: bottom center;
-    background-size: cover;
+		background-size: cover;
 		z-index: -1;
 	}
 }
@@ -131,4 +131,22 @@
 	top: 55px;
 	transform: rotate(90deg);
 	position: absolute;
+}
+
+@media (max-width: 992px) {
+	.about-company__box {
+		margin: 0 0 16px 0;
+
+		&::after {
+			content: none;
+		}
+
+		&:last-child {
+			margin: 0 0 0 0;
+		}
+	}
+
+	.about-company__card {
+		justify-content: center;
+	}
 }

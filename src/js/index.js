@@ -1,6 +1,7 @@
 // Галерея и лайтбоксы от Fancybox
 import { Fancybox } from '@fancyapps/ui'
 import '@fancyapps/ui/dist/fancybox/fancybox.css'
+import burgerMenu from './modules/burgerMenu'
 import CleaningField from './modules/cleaningField'
 import { useDynamicAdapt } from './modules/dynamic-adapt'
 import generalProductSlide from './modules/generalProductSlide'
@@ -16,6 +17,7 @@ function handleDOMContentLoaded() {
 	CleaningField()
 	generalProductSlide()
 	maskField()
+	burgerMenu()
 	useDynamicAdapt("max")
 }
 

@@ -12,7 +12,7 @@
 		background-image: url('./../img/callback__background.png');
 		background-repeat: no-repeat;
 		background-position: bottom center;
-    background-size: cover;
+		background-size: cover;
 		z-index: -1;
 	}
 
@@ -58,4 +58,11 @@
 
 .callback__link {
 	color: var(--extra-gray);
+}
+
+@media (max-width: 991px) {
+	.callback__description {
+		font-size: 20px;
+		line-height: 25.64px;
+	}
 }

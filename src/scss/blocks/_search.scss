@@ -71,6 +71,7 @@
 
 	&:hover {
 		background: linear-gradient(180deg, #000000 0%, #26DF07 0.01%, #E80202 48.96%, #FFE600 100%);
+
 		.search__span {
 			color: var(--basic-white);
 		}
@@ -107,4 +108,32 @@
 
 .search__form {
 	padding: 120px 0 0 10px;
+}
+
+@media (max-width: 992px) {
+	.search__form {
+		padding: 35px 0 70px 0px
+	}
+
+	.search__wrapper {
+		flex-direction: column;
+
+		&::before {
+			height: 56px;
+		}
+	}
+
+	.search__send {
+		position: relative;
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+
+	.search__placeholder {
+		top: 15px;
+	}
+
+	.search__input {
+		height: 56px;
+	}
 }

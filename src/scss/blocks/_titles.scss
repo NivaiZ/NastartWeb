@@ -2,10 +2,20 @@
 	font-size: 36px;
 	line-height: 46.15px;
 	font-weight: 400;
+
+	@include tablet {
+		font-size: 20px;
+		line-height: 25.64px;
+	}
 }
 
 .title__h2 {
 	line-height: 48.72px;
 	font-size: 38px;
 	font-weight: 600;
+
+	@include tablet {
+		font-size: 26px;
+		line-height: 33.33px;
+	}
 }

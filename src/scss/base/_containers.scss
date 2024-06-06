@@ -3,6 +3,10 @@
 	margin: 0 auto;
 	max-width: var(--container-width);
 	width: 100%;
+
+	@include tablet {
+		padding: 0 15px 0 15px;
+	}
 }
 
 .container-full {

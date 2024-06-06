@@ -123,3 +123,34 @@
 .footer__block {
 	display: grid;
 }
+
+@media (max-width: 992px) {
+	.footer__container {
+		display: flex;
+    flex-direction: column;
+		padding: 35px 15px 0 15px;
+	}
+
+	.footer__wrapper--left {
+		flex-direction: column;
+	}
+
+	.footer__grid {
+		display: flex;
+		flex-direction: column;
+		gap: unset;
+	}
+
+	.footer__list-group {
+		display: none;
+	}
+
+	.footer__wrapper--right {
+		margin: 56px 0 0 0;
+	}
+
+	.footer__block {
+		margin: 0 0 40px 0;
+		gap: 40px;
+	}
+}

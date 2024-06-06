@@ -62,3 +62,19 @@
 .contacts__list-contacts {
 	margin: 0 0 0 30px;
 }
+
+@media (max-width: 992px) {
+	.contacts__svg-footer {
+		position: static;
+	}
+
+	.contacts__list-contacts {
+		margin: 0 0 0 0;
+	}
+
+	.contacts__list-dynamic-adapt {
+		display: flex;
+		justify-content: space-between;
+		padding: 11px 32px 5px 32px;
+	}
+}

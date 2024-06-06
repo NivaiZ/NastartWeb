@@ -43,3 +43,22 @@
 .form__fieldset {
 	display: flex;
 }
+
+@media (max-width: 992px) {
+	.form__fieldset {
+		display: grid;
+		gap: 16px;
+	}
+
+	.form__box {
+		width: 100%;
+
+		&:last-child {
+			margin: 10px 0 0 0;
+		}
+
+		.search__send {
+			width: 100%;
+		}
+	}
+}
