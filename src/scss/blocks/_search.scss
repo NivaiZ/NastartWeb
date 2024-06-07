@@ -110,7 +110,7 @@
 	padding: 120px 0 0 10px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.search__form {
 		padding: 35px 0 70px 0px
 	}
@@ -132,7 +132,9 @@
 	.search__placeholder {
 		top: 15px;
 	}
-
+	.search__placeholder.search__placeholder-js {
+		top: 0;
+	}
 	.search__input {
 		height: 56px;
 	}
